@@ -1,0 +1,36 @@
+body {
+	font-family: Arial;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 1.5;
+
+	background-color: #ebe2d8;
+	color: #ff0000;
+}
+
+canvas {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem;
+	margin: 0;
+}
+
+input {
+	width: 180px;
+}
+
+.text-input {
+	font-style: normal;
+	position: fixed;
+	bottom: 10vh;
+	left: 40vw;
+}

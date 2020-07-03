@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Good Morning</title>
+</head>
+
+<body>
+
+    <div class="actions">
+        <label for="wave">Speed</label>
+        <input class="wave" type="range" min="0" max="0.5" step="0.0005" value="0.05">
+        <label for="dx">Distortion (X)</label>
+        <input class="dx" type="range" min="0" max="50" step="1" value="10">
+        <label for="dy">Distortion (Y)</label>
+        <input class="dy" type="range" min="0" max="50" step="1" value="5">
+    </div class="actions">
+
+    <div class="text-input">
+        <input class="line1" type="text" value="Good">
+        <input class="line2" type="text" value="Morning">
+    </div>
+
+    <script src="./assets/p5.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

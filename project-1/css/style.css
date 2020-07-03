@@ -1,0 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+ */
+
+/* @font-face {
+  font-family: Inter;
+  font-weight: 400;
+  src: url(../assets/inter-regular.woff2), url(../assets/inter-regular.woff);
+} */
+
+@font-face {
+  font-family: Inter;
+  weight: 400;
+  src: url(../assets/inter-var.woff2);
+}
+
+@keyframes animate-type {
+  0% {
+    font-variation-settings: "wght" 400, "slnt" 0;
+    letter-spacing: 0;
+  }
+
+  100% {
+    font-variation-settings: "wght" 900, "slnt" -8;
+    letter-spacing: 10px;
+  }
+}
+body {
+  font-family: Inter;
+
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: #00000;
+
+  background-color: #ffffff;
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+header {
+  position: fixed;
+  left: 64px;
+  top: 64px;
+  line-height: 1rem;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  animation: animate-type 2s infinite alternate;
+  /* transition: transform 2s, color 2s; */
+}
+
+footer {
+  position: fixed;
+  bottom: 2em;
+  left: 2rem;
+}
